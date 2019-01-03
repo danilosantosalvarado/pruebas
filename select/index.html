@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Select Menu</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+  <body>
+    <section id="block-lang-dropdown-language" class="block block-lang-dropdown menu-soy-1 clearfix">
+      <h2 class="block-title">Idiomas</h2>
+      <form class="lang_dropdown_form language" id="lang_dropdown_form_language" action="/es" method="post" accept-charset="UTF-8">
+        <div>
+          <div class="form-item form-item-lang-dropdown-select form-type-select form-group">
+            <select class="lang-dropdown-select-element form-control form-select" id="lang-dropdown-select-language" style="width:148px" name="lang_dropdown_select">
+              <option value="es" selected="selected">Español</option>
+              <option value="en">English</option>
+            </select>
+          </div>
+          <input type="hidden" name="es" value="/es">
+          <input type="hidden" name="en" value="/en">
+          <noscript>
+            <div>
+              <button type="submit" id="edit-submit" name="op" value="Ir" class="btn btn-default form-submit">Ir</button>
+            </div>
+          </noscript>
+          <input type="hidden" name="form_build_id" value="form-W0yIszSvX6CgVGWdHZY0bGBofQUC9_0yBfnB2RtNcV8">
+          <input type="hidden" name="form_id" value="lang_dropdown_form">
+        </div>
+      </form>
+    </section>
+
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="js/index.js"></script>
+
+  </body>
+
+</html>

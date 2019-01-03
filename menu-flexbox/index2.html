@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		section {
+			max-width: 600px;
+			padding: 1rem;
+			margin: 0 auto;
+			border: 1px solid red;
+			border-radius: 5px;
+			background-color: green;
+			display: flex;
+			align-items: center;
+		}
+		section img {
+			height: 150px;
+			margin-right: 1rem
+		}
+		section p {
+			background-color: red;
+			margin: 0px;
+		}
+		@media (max-width: 550px) {
+			section {
+				flex-direction: column;
+			}
+			section img {
+				flex: 0 1 81px;
+				margin-right: 0px;
+				margin-bottom: 1rem;
+			}
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<img src="http://nwc.co/assets/img/icons/facebook.png" alt="">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga libero velit laudantium consequatur sit voluptates, inventore dolore, amet id quasi numquam, placeat quas in provident nesciunt aliquam labore ut sint.</p>
+	</section>
+</body>
+</html>

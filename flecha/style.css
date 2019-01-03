@@ -1,0 +1,36 @@
+.sombra_svg {
+	display:-webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex;
+	-webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	width: 6em;
+	height: 5em;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	text-align: center;
+	white-space: normal;
+
+
+	position: relative;
+	margin:auto;
+	box-sizing: border-box;
+	background: #ff9;
+	-webkit-filter: drop-shadow(0px 0px 5px #333);
+	filter: drop-shadow(0px 0px 5px #333);
+
+}
+
+.sombra_svg span{ text-align:center;}
+.sombra_svg::before {
+	content: "";
+	position: absolute;
+	top: 4.5em;
+	right: 2.5em;
+	width: 1em;
+	height: 1em;
+	background-color: #ff9;
+	transform : rotate(45deg);
+	/*box-shadow:0px 0px 5px #333*/;
+}

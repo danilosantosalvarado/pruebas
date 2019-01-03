@@ -1,0 +1,31 @@
+.view-id-mis_citas .view-content table , .view-id-citas .view-content table {
+    width: 99%;
+}
+.view-id-mis_citas .view-content thead th, .view-id-citas .view-content thead th {
+    color: #4cae4c;
+    border-bottom: 2px solid transparent; 
+}
+.view-id-mis_citas .view-content tbody, .view-id-citas .view-content tbody {
+    background-color: #F5F1F1;
+    padding: 10px;
+}
+.view-id-mis_citas .view-content tbody tr, .view-id-citas .view-content tbody tr {
+    background-color: #F5F1F1 !important;
+}
+.view-id-mis_citas .view-content tbody tr td, .view-id-citas .view-content tbody tr td {
+    border-width: 0px 1px 1px 1px;
+    border-bottom-style: dashed;
+    border-right-style: solid;
+    border-color: #A6A8AB;
+}
+.view-id-mis_citas .view-content tbody tr td:last-child, .view-id-citas .view-content tbody tr td:last-child {
+    border-width: 0px 0px 1px 0px;
+}
+
+.view-id-mis_citas .view-content tbody tr:last-child td, .view-id-citas .view-content tbody tr:last-child td {
+    border-width: 0px 1px 0px 0px;
+}
+.view-id-mis_citas .view-content tbody tr:last-child td:last-child, .view-id-citas .view-content tbody tr:last-child td:last-child {
+    border-width: 0px 0px 0px 0px;
+}
+s

@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+.gal-container{
+	padding: 12px;
+    background-color: #ded9d9;
+    padding-top :75px;
+    padding-bottom:75px;
+}
+.gal-container .gal-item {
+	overflow: hidden;
+	padding: 3px;
+}
+.gal-container .gal-item .box{
+	height: 350px;
+	overflow: hidden;
+}
+.gal-container .box img{
+	height: 100%;
+	width: 100%;
+	object-fit:cover;
+	-o-object-fit:cover;
+}
+
+.gal-container .gal-item .boxy {
+    height: 113px;
+    overflow: hidden;
+}
+.gal-container .boxy img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    -o-object-fit:cover;
+}
+.gal-container .bloque-11 {
+    padding: 3px;
+}
+/*.bloque-2,.bloque-2 div {
+    padding: 0px;
+    margin: 0px;
+}*/
+
+.fluid-container {
+    margin-top: 10%;
+    background: #80808057;
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+.fluid-container .bloque-1, .bloque-2  {
+    overflow: hidden;
+    padding: 0px;
+}
+.fluid-container .bloque-1 img, .fluid-container .bloque-2 img {
+      height: 100%;
+    width: 100%;
+    object-fit:cover;
+    -o-object-fit:cover;
+}
+.fluid-container .bloque-2, .contener, .gal-item  {
+    overflow: hidden;
+    padding: 0px;
+}
+.fluid-container .bloque-2 .gal-item.boxy {
+    overflow: hidden;
+    padding: 3px;
+}

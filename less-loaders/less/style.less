@@ -1,0 +1,72 @@
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+*{margin:0; padding: 0; box-sizing: border-box;}
+body,html{
+	margin: 20vh auto;
+	text-align: center;
+	//background: #1c1c1d;
+}
+*{ color:#b4b4b4;}
+
+span{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	border-radius: 0px;
+ }
+.border-radius{border-radius: 500px;}
+
+.uno {
+  background-color: #f9efd0;
+}
+.dos{
+  background-color: #b1d8eb;
+}
+.tres{
+  background-color: #cf7b83;  
+}
+.cuatro{
+  background-color: #eba45b;  
+}
+.cinco{
+  background-color: #49a94e;
+}
+
+*[id*="loader-"]{ margin-bottom: 30px;}
+//loop
+.generate-span1(5);
+
+.generate-span1(@n, @i: 1) when (@i =< @n) {
+	#loader-1 span:nth-child(@{i}) {
+	.border-radius();
+	animation:scale   1s (@i * 0.1s) infinite cubic-bezier(0.600, -0.280, 0.735, 0.045);
+
+  }
+  .generate-span1(@n, (@i + 1));
+}
+
+@keyframes scale{
+	0%{ transform:scale(0.0);}
+	25%{ transform:scale(0.9,0.9)}
+	50%{ transform:scale(1,1); margin:0 3px;}
+	100%{ transform:scale(0.0);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

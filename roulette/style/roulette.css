@@ -1,0 +1,105 @@
+.container {
+    margin-top: 10pc;
+}
+
+.donut-ring {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.ring {
+    /* position: absolute; */
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.ring.red {
+    /* top: 0;
+    left: 0; */
+    background-color: red;
+    border-radius: 100% 0 0 0;
+}
+
+.ring.blue {
+    /* top: 0;
+    right: 0; */
+    background-color: blue;
+    border-radius: 0 100% 0 0;
+}
+
+.ring.orange {
+    /* bottom: 0;
+    left: 0; */
+    background-color: orange;
+    border-radius: 0 0 0 100%;
+}
+
+.ring.green {
+   /*  bottom: 0;
+    right: 0; */
+    background-color: green;
+    border-radius: 0 0 100% 0;
+}
+.cont {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    transform: rotate(40deg);
+}
+.spinner {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    border-radius: 50%;
+    pointer-events: none;
+}
+span {
+    font-size: 20px;
+    display: inline;
+    cursor: pointer;
+    color: black; 
+    font-weight: bold;
+}
+.pointer  {
+    position: relative;
+}
+
+.pointer .flecha{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -161px;
+    left: 37%;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid yellow;
+}
+
+/* ------| svg |------ */
+body {
+  background-color: #333;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 35px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
+}
+
+
+
+
+
+
+
+

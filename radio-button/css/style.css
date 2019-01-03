@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+}
+
+#second {
+  background-color: #FF8A66;
+}
+.section {
+  padding: 100px;
+  padding-left: 150px;
+}
+.container {
+  margin-bottom: 10px;
+}
+
+/* Base styles radio buton */
+.section input[type="radio"], .section input[type="checkbox"]{
+  display: none;
+}
+div.form-radios .radio label.control-label {
+  position: relative;
+}
+div.form-radios .radio span::before, div.form-radios .radio span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* cuadro radio */
+div.form-radios .radio span::before {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    left: -32px;
+    top: -2px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid black;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+}
+
+div.form-radios .radio span::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 15px;
+  left: -28px;
+  top: 1px;
+  background: transparent;
+  -webkit-transition: color .2s;
+  transition: color .2s;
+}
+input[type="radio"]:checked + span::after  {
+  background: #26ca28;
+}
+
+/* OPCION DOS DEFINITIVA */
+.numero2 .radio input[type="radio"], .numero2 .checkbox input[type="checkbox"] {
+   display: none;
+}
+.numero2 .radio input[type="radio"], .numero2 .checkbox input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 0px;
+  transition: border-color .2s;
+  margin: 3px 0px 0px -25px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+.numero2 .radio input[type="radio"]:checked, .numero2 .checkbox input[type="checkbox"]:checked {
+  background: url(../img/chulo.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+

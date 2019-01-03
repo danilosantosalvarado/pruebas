@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body class="html front not-logged-in no-sidebars page-user page-user-login">
+	<div class="main-container container">
+		<div class="row">
+			<section class="col-sm-12">
+				<form action="/tbwa/" method="post" id="user-login" accept-charset="UTF-8" _lpchecked="1">
+					<div>
+						<div class="form-item form-item-name form-type-textfield form-group">
+							<label class="control-label" for="edit-name">Ingresar</label>
+							<input class="form-control form-text" title="" data-toggle="tooltip" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" placeholder="Usuario" data-original-title="Escriba su nombre de usuario en localhost.">
+						</div>
+						<div class="form-item form-item-pass form-type-password form-group">
+							<input class="form-control form-text required" title="" data-toggle="tooltip" type="password" id="edit-pass" name="pass" size="60" maxlength="128" placeholder="Clave" data-original-title="Escriba la contraseña asignada a su nombre de usuario.">
+						</div>
+						<div id="edit-info" class="form-item form-type-item form-group">
+							Las personas que no tengan usuario y clave uniandes pueden comunicarse con la Decanatura de Estudiantes para recibir atención personalizada, en el teléfono 339 49 49 Ext. 2207, de lunes a viernes en horario de 8:00 a.m a 5:00 p.m.
+						</div>
+						<div id="edit-enlace" class="form-item form-type-item form-group">
+							<a href="/tbwa/user/password">Olvido su clave</a>
+						</div>
+						<div class="form-actions form-wrapper form-group" id="edit-actions">
+							<button type="submit" id="edit-submit" name="op" value="Iniciar sesión" class="btn btn-primary form-submit">Iniciar sesión</button>
+						</div>
+					</div>
+				</form>
+			</section>
+		</div>
+	</div>
+</body>
+</html> 
